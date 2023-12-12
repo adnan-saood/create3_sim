@@ -34,6 +34,7 @@
           <z>
             <noise type="gaussian">
               <mean>0.0</mean>
+              <!-- <stddev>0.09486833</stddev> -->
               <stddev>0.0</stddev>
             </noise>
           </z>
@@ -42,19 +43,20 @@
           <x>
             <noise type="gaussian">
               <mean>0.0</mean>
-              <stddev>0.0</stddev>
+              <!-- <stddev>0.001257564</stddev> -->
+              <stddev>0.001569064</stddev>
             </noise>
           </x>
           <y>
             <noise type="gaussian">
               <mean>0.0</mean>
-              <stddev>0.0</stddev>
+              <stddev>0.001569064</stddev>
             </noise>
           </y>
           <z>
             <noise type="gaussian">
               <mean>0.0</mean>
-              <stddev>0.0</stddev>
+              <stddev>0.0018632635</stddev>
             </noise>
           </z>
         </linear_acceleration>

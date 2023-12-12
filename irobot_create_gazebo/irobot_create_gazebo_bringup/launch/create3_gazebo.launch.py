@@ -13,13 +13,13 @@ from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 
 
 ARGUMENTS = [
-    DeclareLaunchArgument('use_rviz', default_value='true',
+    DeclareLaunchArgument('use_rviz', default_value='false',
                           choices=['true', 'false'],
                           description='Start rviz.'),
     DeclareLaunchArgument('use_gazebo_gui', default_value='true',
                           choices=['true', 'false'],
                           description='Set "false" to run gazebo headless.'),
-    DeclareLaunchArgument('spawn_dock', default_value='true',
+    DeclareLaunchArgument('spawn_dock', default_value='false',
                           choices=['true', 'false'],
                           description='Spawn the standard dock model.'),
     DeclareLaunchArgument('world_path', default_value='',
